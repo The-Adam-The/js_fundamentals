@@ -37,4 +37,13 @@ for (var key in movie){
     console.log(key)
 }
 
-//
+//the object is const, but elements within the object can be changed 'mutated'
+
+const song = {
+    title: 'Raspberry Beret',
+    artist: 'Prince'
+};
+
+song.title = 'Purple rain'
+
+console.log(song)
